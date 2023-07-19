@@ -1,0 +1,265 @@
+<html>
+  <title></title>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+  <style>
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Header styles */
+#header {
+  position: fixed;
+  background-color: green;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#header-img {
+  width: 60px;
+}
+
+#nav-bar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#nav-bar li {
+  margin: 0 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+
+/* Services section styles */
+.set2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  padding-top:10%;
+  background-color: #f9f9f9;
+}
+
+.box-1 {
+  text-align: center;
+}
+
+.icon {
+  margin-bottom: 20px;
+}
+
+.icon i {
+  font-size: 40px;
+  color: #333;
+}
+
+.icon h2 {
+  margin: 10px 0;
+}
+
+.icon p {
+  color: #777;
+}
+
+/* Video section styles */
+iframe#video {
+  width: 100%;
+  height: 400px;
+  padding:0 20%;
+}
+
+/* Price section styles */
+.section-1 {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.product {
+  text-align: center;
+  padding: 30px;
+  background-color: #f9f9f9;
+}
+
+.level {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product h2 {
+  margin: 10px 0;
+}
+
+.product ol {
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: red;
+}
+
+/* Sent email section styles */
+.section-center-last {
+  text-align: center;
+  padding: 40px;
+  background-color: #f4f4f4;
+}
+
+.section-center-last h1 {
+  margin-bottom: 20px;
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#email {
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+}
+
+#submit {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #555;
+}
+
+</style>
+<body>
+    <header id="header">
+      <!--Logo-->
+      <img src= "https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/06/mcdonalds.png" id="header-img"/>
+      
+    <!--menu-->
+ <nav id="nav-bar">
+      <ul>
+        <li><a href="#section1" class="nav-link">Vdo</a></li>
+        <li><a href="#section2" class="nav-link">Price</a></li>
+        <li><a href="#section3" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+    <!--Services-->
+    <section class="set2"> 
+      <div class="box-1">
+      <div class="icon">
+        <i class="fa-solid fa-house"></i>
+        <h2>Premium Materials</h2>
+        <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+      </div>
+      </div>
+      
+      <div class="box-1">
+      <div class="icon">
+        <i class="fa-solid fa-plane"></i>
+        <h2>Premium Materials</h2>
+        <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+      </div>
+         </div>
+      
+      <div class="box-1">
+      <div class="icon">
+        <i class="fa-solid fa-barcode"></i>
+        <h2>Premium Materials</h2>
+        <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+      </div>
+        </div>
+      
+    </section>
+      <!--VDO-->
+      <section id="section1"> 
+        <iframe id="video" src="https://www.youtube.com/embed/zTLWh_bJpek" title="MC vdo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </section>
+      <!--Price-->
+    <section class="section-1" id="section2">
+      <div class="product" id="tenor">
+        <div class="level">Tenor Trombone</div>
+        <h2>$600</h2>
+        <ol>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum dolor.</li>
+          <li>Lorem ipsum.</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      
+            <div class="product" id="tenor">
+        <div class="level">Tenor Trombone</div>
+        <h2>$600</h2>
+        <ol>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum dolor.</li>
+          <li>Lorem ipsum.</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      
+            <div class="product" id="tenor">
+        <div class="level">Tenor Trombone</div>
+        <h2>$600</h2>
+        <ol>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum dolor.</li>
+          <li>Lorem ipsum.</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      
+    </section>
+    
+    
+    
+    
+      <!--Sent email -->
+      <section class="section-center-last" id="section3">
+        <h1>Handcrafted, home-made masterpieces</h1>
+        <form id="form" action="https://www.freecodecamp.com/email-submit"> 
+          <input id="email" placeholder="Enter your email" required></input><br>
+        <button id="submit"> submit</button>
+          </form>          
+      </section>
+  </body>
+</html>
